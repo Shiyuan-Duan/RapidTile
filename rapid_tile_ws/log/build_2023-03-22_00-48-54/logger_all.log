@@ -1,0 +1,147 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f91f08c82b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f91f08c82b0>>)
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiyuan/bald_dolphin_ws'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_ctrl' with type 'ros.ament_python' and name 'arm_ctrl'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematic_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematic_utils) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematic_utils) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematic_utils) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematic_utils) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinematic_utils' with type 'ros.ament_cmake' and name 'kinematic_utils'
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'arm_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuan/bald_dolphin_ws/build/arm_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl', 'merge_install': False, 'path': '/home/shiyuan/bald_dolphin_ws/src/arm_ctrl', 'symlink_install': False, 'test_result_base': None}
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_target' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] Level 5:colcon.colcon_core.verb:set package 'kinematic_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] DEBUG:colcon.colcon_core.verb:Building package 'kinematic_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuan/bald_dolphin_ws/build/kinematic_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils', 'merge_install': False, 'path': '/home/shiyuan/bald_dolphin_ws/src/kinematic_utils', 'symlink_install': False, 'test_result_base': None}
+[0.316s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.317s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'arm_ctrl'
+[0.318s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiyuan/bald_dolphin_ws/src/arm_ctrl' with build type 'ament_python'
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_ctrl', 'ament_prefix_path')
+[0.319s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/hook/ament_prefix_path.dsv'
+[0.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/hook/ament_prefix_path.sh'
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.568s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiyuan/bald_dolphin_ws/src/arm_ctrl'
+[0.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuan/bald_dolphin_ws/src/arm_ctrl': PYTHONPATH=/home/shiyuan/bald_dolphin_ws/build/arm_ctrl/prefix_override:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuan/bald_dolphin_ws/build/arm_ctrl/build install --record /home/shiyuan/bald_dolphin_ws/build/arm_ctrl/install.log --single-version-externally-managed
+[1.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuan/bald_dolphin_ws/src/arm_ctrl' returned '0': PYTHONPATH=/home/shiyuan/bald_dolphin_ws/build/arm_ctrl/prefix_override:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuan/bald_dolphin_ws/build/arm_ctrl/build install --record /home/shiyuan/bald_dolphin_ws/build/arm_ctrl/install.log --single-version-externally-managed
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl' for CMake module files
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/lib'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/lib/pkgconfig/arm_ctrl.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/lib/python3.10/site-packages'
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_ctrl', 'pythonpath')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/hook/pythonpath.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/hook/pythonpath.sh'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/bin'
+[1.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_ctrl)
+[1.075s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/package.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/arm_ctrl/package.sh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuan/bald_dolphin_ws/install/arm_ctrl/share/colcon-core/packages/arm_ctrl)
+[1.077s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'arm_ctrl' finished with '0'
+[1.077s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kinematic_utils'
+[1.077s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiyuan/bald_dolphin_ws/src/kinematic_utils' with build type 'ament_cmake'
+[1.077s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiyuan/bald_dolphin_ws/src/kinematic_utils'
+[1.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuan/bald_dolphin_ws/build/kinematic_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl:/home/shiyuan/dev_ws/install/learning_urdf:/home/shiyuan/dev_ws/install/learning_topic:/home/shiyuan/dev_ws/install/learning_tf:/home/shiyuan/dev_ws/install/learning_service:/home/shiyuan/dev_ws/install/learning_qos:/home/shiyuan/dev_ws/install/learning_pkg_python:/home/shiyuan/dev_ws/install/learning_parameter:/home/shiyuan/dev_ws/install/learning_node:/home/shiyuan/dev_ws/install/learning_launch:/home/shiyuan/dev_ws/install/learning_action:/home/shiyuan/dev_ws/install/learning_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/shiyuan/bald_dolphin_ws/build/kinematic_utils -- -j16 -l16
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuan/bald_dolphin_ws/build/kinematic_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl:/home/shiyuan/dev_ws/install/learning_urdf:/home/shiyuan/dev_ws/install/learning_topic:/home/shiyuan/dev_ws/install/learning_tf:/home/shiyuan/dev_ws/install/learning_service:/home/shiyuan/dev_ws/install/learning_qos:/home/shiyuan/dev_ws/install/learning_pkg_python:/home/shiyuan/dev_ws/install/learning_parameter:/home/shiyuan/dev_ws/install/learning_node:/home/shiyuan/dev_ws/install/learning_launch:/home/shiyuan/dev_ws/install/learning_action:/home/shiyuan/dev_ws/install/learning_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/shiyuan/bald_dolphin_ws/build/kinematic_utils -- -j16 -l16
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuan/bald_dolphin_ws/build/kinematic_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl:/home/shiyuan/dev_ws/install/learning_urdf:/home/shiyuan/dev_ws/install/learning_topic:/home/shiyuan/dev_ws/install/learning_tf:/home/shiyuan/dev_ws/install/learning_service:/home/shiyuan/dev_ws/install/learning_qos:/home/shiyuan/dev_ws/install/learning_pkg_python:/home/shiyuan/dev_ws/install/learning_parameter:/home/shiyuan/dev_ws/install/learning_node:/home/shiyuan/dev_ws/install/learning_launch:/home/shiyuan/dev_ws/install/learning_action:/home/shiyuan/dev_ws/install/learning_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/shiyuan/bald_dolphin_ws/build/kinematic_utils
+[1.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinematic_utils)
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuan/bald_dolphin_ws/build/kinematic_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuan/bald_dolphin_ws/install/arm_ctrl:/home/shiyuan/dev_ws/install/learning_urdf:/home/shiyuan/dev_ws/install/learning_topic:/home/shiyuan/dev_ws/install/learning_tf:/home/shiyuan/dev_ws/install/learning_service:/home/shiyuan/dev_ws/install/learning_qos:/home/shiyuan/dev_ws/install/learning_pkg_python:/home/shiyuan/dev_ws/install/learning_parameter:/home/shiyuan/dev_ws/install/learning_node:/home/shiyuan/dev_ws/install/learning_launch:/home/shiyuan/dev_ws/install/learning_action:/home/shiyuan/dev_ws/install/learning_gazebo:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/shiyuan/bald_dolphin_ws/build/kinematic_utils
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematic_utils', 'cmake_prefix_path')
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib'
+[1.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematic_utils', 'ld_library_path_lib')
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/ld_library_path_lib.dsv'
+[1.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/ld_library_path_lib.sh'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib/pkgconfig/kinematic_utils.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib/python3.10/site-packages'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/bin'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/package.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/package.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/colcon-core/packages/kinematic_utils)
+[1.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinematic_utils)
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils' for CMake module files
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils' for CMake config files
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematic_utils', 'cmake_prefix_path')
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/cmake_prefix_path.sh'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib'
+[1.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematic_utils', 'ld_library_path_lib')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/ld_library_path_lib.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/hook/ld_library_path_lib.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/bin'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib/pkgconfig/kinematic_utils.pc'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/lib/python3.10/site-packages'
+[1.184s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/bin'
+[1.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/package.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/kinematic_utils/package.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuan/bald_dolphin_ws/install/kinematic_utils/share/colcon-core/packages/kinematic_utils)
+[1.185s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'kinematic_utils' finished with '0'
+[1.185s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[1.185s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[1.186s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.186s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiyuan/bald_dolphin_ws/install/local_setup.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiyuan/bald_dolphin_ws/install/_local_setup_util_sh.py'
+[1.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiyuan/bald_dolphin_ws/install/setup.sh'

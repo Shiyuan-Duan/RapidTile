@@ -1,0 +1,3 @@
+[console_scripts]
+arm_ctrl_node = arm_ctrl.arm_ctrl_node:main
+

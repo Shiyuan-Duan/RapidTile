@@ -1,0 +1,10 @@
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/uninstall.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/kinematic_utils_uninstall.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/kinematic_utils.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/test.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/edit_cache.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/rebuild_cache.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/list_install_components.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/install.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/install/local.dir
+/home/shiyuan/bald_dolphin_ws/build/kinematic_utils/CMakeFiles/install/strip.dir
