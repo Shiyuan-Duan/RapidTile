@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.038s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.653s] [ 75%] [32m[1mLinking CXX executable server[0m
+[2.773s] [ 75%] Built target server
+[2.774s] [100%] [32m[1mLinking CXX executable client[0m
+[2.897s] [100%] Built target client
+[2.905s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16
+[2.926s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli
+[2.929s] -- Install configuration: ""
+[2.929s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[2.929s] -- Set runtime path of "/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[2.929s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[2.930s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.931s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.933s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli

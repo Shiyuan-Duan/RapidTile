@@ -1,0 +1,16 @@
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/kinematics_utils/IKServer
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/package_run_dependencies/kinematics_utils
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/parent_prefix_path/kinematics_utils
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.sh
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.dsv
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.sh
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.dsv
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.bash
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.sh
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.zsh
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.dsv
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.dsv
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/packages/kinematics_utils
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig.cmake
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig-version.cmake
+/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.xml

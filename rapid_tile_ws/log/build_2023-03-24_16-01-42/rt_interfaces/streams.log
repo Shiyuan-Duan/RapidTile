@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces -DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces
+[0.017s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.008s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.009s]   By not providing "Findrosidl_default_generatorss.cmake" in
+[1.009s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.009s]   configuration file provided by "rosidl_default_generatorss", but CMake did
+[1.009s]   not find one.
+[1.009s] 
+[1.009s]   Could not find a package configuration file provided by
+[1.009s]   "rosidl_default_generatorss" with any of the following names:
+[1.009s] 
+[1.009s]     rosidl_default_generatorssConfig.cmake
+[1.009s]     rosidl_default_generatorss-config.cmake
+[1.009s] 
+[1.009s]   Add the installation prefix of "rosidl_default_generatorss" to
+[1.009s]   CMAKE_PREFIX_PATH or set "rosidl_default_generatorss_DIR" to a directory
+[1.009s]   containing one of the above files.  If "rosidl_default_generatorss"
+[1.009s]   provides a separate development package or SDK, be sure it has been
+[1.009s]   installed.
+[1.009s] 
+[1.009s] [0m
+[1.009s] -- Configuring incomplete, errors occurred!
+[1.009s] See also "/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces/CMakeFiles/CMakeOutput.log".
+[1.011s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces -DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces

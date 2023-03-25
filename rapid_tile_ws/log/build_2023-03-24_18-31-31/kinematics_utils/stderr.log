@@ -1,0 +1,19 @@
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:29:52:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   29 |         std::cout << "Destination " << x_target << [01;35m[K', '[m[K << y_target << ', ' << z_target << ' is not reachable'<<std::endl;
+      |                                                    [01;35m[K^~~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:29:72:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmultichar-Wmultichar]8;;[m[K]
+   29 |         std::cout << "Destination " << x_target << ', ' << y_target << [01;35m[K', '[m[K << z_target << ' is not reachable'<<std::endl;
+      |                                                                        [01;35m[K^~~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:29:92:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   29 |         std::cout << "Destination " << x_target << ', ' << y_target << ', ' << z_target << [01;35m[K' is not reachable'[m[K<<std::endl;
+      |                                                                                            [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:[m[K In function ‘[01m[Kvoid solve(std::shared_ptr<rt_interfaces::srv::SolveIK_Request_<std::allocator<void> > >, std::shared_ptr<rt_interfaces::srv::SolveIK_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:66:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kresponse[m[K’
+   66 |     response->t1 = thetas[0]
+      |                             [01;31m[K^[m[K
+      |                             [32m[K;[m[K
+   67 |     [32m[Kresponse[m[K->t2 = thetas[1]
+      |     [32m[K~~~~~~~~[m[K                 
+gmake[2]: *** [CMakeFiles/IKServer.dir/build.make:76: CMakeFiles/IKServer.dir/src/SolveIK.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IKServer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

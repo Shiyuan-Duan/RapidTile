@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/IKServer.dir/src/SolveIK.cpp.o[0m
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krt_interfaces/srv/SolveIK.hpp: No such file or directory
+    2 | #include [01;31m[K"rt_interfaces/srv/SolveIK.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/IKServer.dir/build.make:76: CMakeFiles/IKServer.dir/src/SolveIK.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IKServer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

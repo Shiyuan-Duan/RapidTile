@@ -1,0 +1,397 @@
+[0.000000] (-) TimerEvent: {}
+[0.000810] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001377] (rt_interfaces) JobQueued: {'identifier': 'rt_interfaces', 'dependencies': OrderedDict()}
+[0.001416] (kinematics_utils) JobQueued: {'identifier': 'kinematics_utils', 'dependencies': OrderedDict([('rt_interfaces', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces')])}
+[0.001432] (rt_interfaces) JobStarted: {'identifier': 'rt_interfaces'}
+[0.006266] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.012485] (rt_interfaces) JobProgress: {'identifier': 'rt_interfaces', 'progress': 'cmake'}
+[0.013300] (rt_interfaces) JobProgress: {'identifier': 'rt_interfaces', 'progress': 'build'}
+[0.013347] (rt_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.017130] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.017552] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.019522] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.038506] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.045506] (rt_interfaces) StdoutLine: {'line': b'[  9%] Built target rt_interfaces__rosidl_generator_c\n'}
+[0.046880] (rt_interfaces) StdoutLine: {'line': b'[ 12%] Built target rt_interfaces__cpp\n'}
+[0.051105] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.051388] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.051584] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.052997] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.053327] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.054191] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.055064] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.056935] (rt_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_rt_interfaces\n'}
+[0.059242] (rt_interfaces) StdoutLine: {'line': b'[ 22%] Built target rt_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.059572] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.061200] (rt_interfaces) StdoutLine: {'line': b'[ 32%] Built target rt_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.061425] (rt_interfaces) StdoutLine: {'line': b'[ 41%] Built target rt_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.062201] (rt_interfaces) StdoutLine: {'line': b'[ 51%] Built target rt_interfaces__rosidl_typesupport_cpp\n'}
+[0.062405] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.062664] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[0.065288] (rt_interfaces) StdoutLine: {'line': b'[ 61%] Built target rt_interfaces__rosidl_typesupport_c\n'}
+[0.068809] (rt_interfaces) StdoutLine: {'line': b'[ 70%] Built target rt_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.073002] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[0.081494] (rt_interfaces) StdoutLine: {'line': b'[ 70%] Built target rt_interfaces\n'}
+[0.093062] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[0.093607] (rt_interfaces) StdoutLine: {'line': b'[ 74%] Built target rt_interfaces__py\n'}
+[0.099372] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.100355] (-) TimerEvent: {}
+[0.100450] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_generator_py\x1b[0m\n'}
+[0.103792] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.104034] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[0.104151] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[0.104385] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[0.104506] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[0.104600] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[0.104694] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[0.104760] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[0.104894] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[0.104973] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[0.105073] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[0.105138] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[0.105201] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[0.105639] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[0.105947] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[0.106088] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[0.106204] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[0.106319] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[0.108459] (rt_interfaces) StdoutLine: {'line': b'[ 80%] Built target rt_interfaces__rosidl_generator_py\n'}
+[0.108649] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[0.113754] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.113923] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.114044] (rt_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rt_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.120166] (rt_interfaces) StdoutLine: {'line': b'[ 93%] Built target rt_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.120287] (rt_interfaces) StdoutLine: {'line': b'[ 93%] Built target rt_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.120442] (rt_interfaces) StdoutLine: {'line': b'[100%] Built target rt_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.141421] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[0.200508] (-) TimerEvent: {}
+[0.226094] (rt_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.226562] (rt_interfaces) StdoutLine: {'line': b'writing rt_interfaces.egg-info/PKG-INFO\n'}
+[0.226843] (rt_interfaces) StdoutLine: {'line': b'writing dependency_links to rt_interfaces.egg-info/dependency_links.txt\n'}
+[0.226911] (rt_interfaces) StdoutLine: {'line': b'writing top-level names to rt_interfaces.egg-info/top_level.txt\n'}
+[0.228246] (rt_interfaces) StdoutLine: {'line': b"reading manifest file 'rt_interfaces.egg-info/SOURCES.txt'\n"}
+[0.228594] (rt_interfaces) StdoutLine: {'line': b"writing manifest file 'rt_interfaces.egg-info/SOURCES.txt'\n"}
+[0.244066] (rt_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rt_interfaces_egg\n'}
+[0.250097] (rt_interfaces) CommandEnded: {'returncode': 0}
+[0.279584] (rt_interfaces) JobProgress: {'identifier': 'rt_interfaces', 'progress': 'install'}
+[0.279895] (rt_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.284139] (rt_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.284357] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/ament_index/resource_index/rosidl_interfaces/rt_interfaces\n'}
+[0.284481] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.284552] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg\n'}
+[0.284613] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.284680] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.284835] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/solve_ik.h\n'}
+[0.284945] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.285050] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__type_support.h\n'}
+[0.285252] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__functions.h\n'}
+[0.285338] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__struct.h\n'}
+[0.285422] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__functions.c\n'}
+[0.285580] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/library_path.sh\n'}
+[0.285649] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/library_path.dsv\n'}
+[0.285747] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_generator_c.so\n'}
+[0.285811] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.285873] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg\n'}
+[0.285985] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.286062] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.286149] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.286333] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__rosidl_typesupport_fastrtps_c.h\n'}
+[0.286380] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.286487] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.286545] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg\n'}
+[0.286658] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.286774] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.286883] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.286993] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__type_support.c\n'}
+[0.287101] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__rosidl_typesupport_introspection_c.h\n'}
+[0.287209] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.287318] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_c.so\n'}
+[0.287427] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.287535] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.287643] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.287727] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__struct.hpp\n'}
+[0.287871] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__builder.hpp\n'}
+[0.287920] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__traits.hpp\n'}
+[0.287957] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/solve_ik.hpp\n'}
+[0.288001] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.288038] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg\n'}
+[0.288076] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.288114] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.288157] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.288193] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/dds_fastrtps\n'}
+[0.288241] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.288279] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.288318] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces\n'}
+[0.288357] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv\n'}
+[0.288396] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail\n'}
+[0.288436] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.288475] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/include/rt_interfaces/rt_interfaces/srv/detail/solve_ik__type_support.cpp\n'}
+[0.288513] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.288560] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.288597] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/pythonpath.sh\n'}
+[0.288633] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/pythonpath.dsv\n'}
+[0.288670] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.288706] (rt_interfaces) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.288745] (rt_interfaces) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.288795] (rt_interfaces) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.288843] (rt_interfaces) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.288883] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces\n'}
+[0.288924] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/_rt_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.288967] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/_rt_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.289006] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.289050] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/librt_interfaces__rosidl_generator_py.so\n'}
+[0.289087] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/__init__.py\n'}
+[0.289137] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.289184] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.289221] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/srv\n'}
+[0.289258] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/srv/_solve_ik_s.c\n'}
+[0.289298] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/srv/_solve_ik.py\n'}
+[0.289341] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/srv/__init__.py\n'}
+[0.289378] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/_rt_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.300670] (-) TimerEvent: {}
+[0.304969] (rt_interfaces) StdoutLine: {'line': b"Listing '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces'...\n"}
+[0.305072] (rt_interfaces) StdoutLine: {'line': b"Listing '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/srv'...\n"}
+[0.307524] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.307681] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.307840] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages/rt_interfaces/rt_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.308024] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/librt_interfaces__rosidl_generator_py.so\n'}
+[0.308216] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/srv/SolveIK.idl\n'}
+[0.308319] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/srv/SolveIK.srv\n'}
+[0.308379] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/srv/SolveIK_Request.msg\n'}
+[0.308447] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/srv/SolveIK_Response.msg\n'}
+[0.308674] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/ament_index/resource_index/package_run_dependencies/rt_interfaces\n'}
+[0.308797] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/ament_index/resource_index/parent_prefix_path/rt_interfaces\n'}
+[0.308875] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/ament_prefix_path.sh\n'}
+[0.308943] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.309027] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/path.sh\n'}
+[0.309181] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/environment/path.dsv\n'}
+[0.309287] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/local_setup.bash\n'}
+[0.309425] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/local_setup.sh\n'}
+[0.309573] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/local_setup.zsh\n'}
+[0.309670] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/local_setup.dsv\n'}
+[0.309786] (rt_interfaces) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.dsv\n'}
+[0.309848] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/ament_index/resource_index/packages/rt_interfaces\n'}
+[0.309938] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.310008] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.310086] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.310172] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.310423] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.310474] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.310517] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.310624] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.310748] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.310857] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.310965] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.311073] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.311182] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.311291] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.311399] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.311507] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.311616] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/export_rt_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.311818] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.311950] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.312061] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.312170] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.312483] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.312852] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.313307] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.313867] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfacesConfig.cmake\n'}
+[0.315535] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake/rt_interfacesConfig-version.cmake\n'}
+[0.315646] (rt_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.xml\n'}
+[0.315885] (rt_interfaces) CommandEnded: {'returncode': 0}
+[0.362422] (rt_interfaces) JobEnded: {'identifier': 'rt_interfaces', 'rc': 0}
+[0.362830] (kinematics_utils) JobStarted: {'identifier': 'kinematics_utils'}
+[0.400857] (-) TimerEvent: {}
+[0.433675] (kinematics_utils) JobProgress: {'identifier': 'kinematics_utils', 'progress': 'cmake'}
+[0.433737] (kinematics_utils) Command: {'cmd': ['/usr/bin/cmake', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils', '-DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.501057] (-) TimerEvent: {}
+[0.532215] (kinematics_utils) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.601174] (-) TimerEvent: {}
+[0.701477] (-) TimerEvent: {}
+[0.801789] (-) TimerEvent: {}
+[0.902147] (-) TimerEvent: {}
+[0.927449] (kinematics_utils) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.002323] (-) TimerEvent: {}
+[1.102621] (-) TimerEvent: {}
+[1.202945] (-) TimerEvent: {}
+[1.221825] (kinematics_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.303106] (-) TimerEvent: {}
+[1.318457] (kinematics_utils) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.322707] (kinematics_utils) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.322909] (kinematics_utils) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.323146] (kinematics_utils) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.324753] (kinematics_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.403216] (-) TimerEvent: {}
+[1.434299] (kinematics_utils) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.438572] (kinematics_utils) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.438769] (kinematics_utils) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.439255] (kinematics_utils) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.440421] (kinematics_utils) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.503346] (-) TimerEvent: {}
+[1.535874] (kinematics_utils) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.584263] (kinematics_utils) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.603512] (-) TimerEvent: {}
+[1.703797] (-) TimerEvent: {}
+[1.707912] (kinematics_utils) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.710341] (kinematics_utils) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.714606] (kinematics_utils) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.721807] (kinematics_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.732010] (kinematics_utils) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.769029] (kinematics_utils) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.770214] (kinematics_utils) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803913] (-) TimerEvent: {}
+[1.904191] (-) TimerEvent: {}
+[2.004478] (-) TimerEvent: {}
+[2.104815] (-) TimerEvent: {}
+[2.205099] (-) TimerEvent: {}
+[2.305369] (-) TimerEvent: {}
+[2.405663] (-) TimerEvent: {}
+[2.506001] (-) TimerEvent: {}
+[2.606329] (-) TimerEvent: {}
+[2.706688] (-) TimerEvent: {}
+[2.807021] (-) TimerEvent: {}
+[2.835334] (kinematics_utils) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.907196] (-) TimerEvent: {}
+[3.007518] (-) TimerEvent: {}
+[3.107843] (-) TimerEvent: {}
+[3.208121] (-) TimerEvent: {}
+[3.308469] (-) TimerEvent: {}
+[3.408779] (-) TimerEvent: {}
+[3.509058] (-) TimerEvent: {}
+[3.609345] (-) TimerEvent: {}
+[3.709697] (-) TimerEvent: {}
+[3.810002] (-) TimerEvent: {}
+[3.910288] (-) TimerEvent: {}
+[4.010584] (-) TimerEvent: {}
+[4.033663] (kinematics_utils) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.110757] (-) TimerEvent: {}
+[4.211139] (-) TimerEvent: {}
+[4.311422] (-) TimerEvent: {}
+[4.411723] (-) TimerEvent: {}
+[4.512021] (-) TimerEvent: {}
+[4.612328] (-) TimerEvent: {}
+[4.712613] (-) TimerEvent: {}
+[4.812906] (-) TimerEvent: {}
+[4.913260] (-) TimerEvent: {}
+[5.013601] (-) TimerEvent: {}
+[5.113931] (-) TimerEvent: {}
+[5.214211] (-) TimerEvent: {}
+[5.314495] (-) TimerEvent: {}
+[5.414840] (-) TimerEvent: {}
+[5.515165] (-) TimerEvent: {}
+[5.615451] (-) TimerEvent: {}
+[5.715811] (-) TimerEvent: {}
+[5.816195] (-) TimerEvent: {}
+[5.916482] (-) TimerEvent: {}
+[6.016858] (-) TimerEvent: {}
+[6.084520] (kinematics_utils) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.089136] (kinematics_utils) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.116970] (-) TimerEvent: {}
+[6.204727] (kinematics_utils) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.205001] (kinematics_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.217103] (-) TimerEvent: {}
+[6.317428] (-) TimerEvent: {}
+[6.317843] (kinematics_utils) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.318493] (kinematics_utils) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.411783] (kinematics_utils) StdoutLine: {'line': b'-- Found rt_interfaces: 0.0.0 (/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake)\n'}
+[6.417546] (-) TimerEvent: {}
+[6.420436] (kinematics_utils) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.473464] (kinematics_utils) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.473585] (kinematics_utils) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.473627] (kinematics_utils) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.473999] (kinematics_utils) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.474499] (kinematics_utils) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.474565] (kinematics_utils) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.474828] (kinematics_utils) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.475552] (kinematics_utils) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.481040] (kinematics_utils) StdoutLine: {'line': b'-- Generating done\n'}
+[6.481994] (kinematics_utils) StdoutLine: {'line': b'-- Build files have been written to: /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils\n'}
+[6.488478] (kinematics_utils) CommandEnded: {'returncode': 0}
+[6.489179] (kinematics_utils) JobProgress: {'identifier': 'kinematics_utils', 'progress': 'build'}
+[6.489232] (kinematics_utils) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils', '--', '-j16', '-l16'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[6.510590] (kinematics_utils) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/IKServer.dir/src/SolveIK.cpp.o\x1b[0m\n'}
+[6.517680] (-) TimerEvent: {}
+[6.617956] (-) TimerEvent: {}
+[6.718284] (-) TimerEvent: {}
+[6.818659] (-) TimerEvent: {}
+[6.918946] (-) TimerEvent: {}
+[7.019231] (-) TimerEvent: {}
+[7.119570] (-) TimerEvent: {}
+[7.219922] (-) TimerEvent: {}
+[7.320223] (-) TimerEvent: {}
+[7.420509] (-) TimerEvent: {}
+[7.520831] (-) TimerEvent: {}
+[7.621173] (-) TimerEvent: {}
+[7.721473] (-) TimerEvent: {}
+[7.821811] (-) TimerEvent: {}
+[7.922144] (-) TimerEvent: {}
+[8.022437] (-) TimerEvent: {}
+[8.122740] (-) TimerEvent: {}
+[8.223029] (-) TimerEvent: {}
+[8.323330] (-) TimerEvent: {}
+[8.423620] (-) TimerEvent: {}
+[8.523908] (-) TimerEvent: {}
+[8.624194] (-) TimerEvent: {}
+[8.724493] (-) TimerEvent: {}
+[8.824767] (-) TimerEvent: {}
+[8.834746] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.834909] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK::Request> request,\n'}
+[8.834956] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.834993] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.835027] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.835062] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[8.835096] (kinematics_utils) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.837482] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.837549] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK::Request> request,\n'}
+[8.837589] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.837625] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.837659] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.837698] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[8.837734] (kinematics_utils) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.840268] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.840342] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK::Request> request,\n'}
+[8.840384] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.840421] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.840474] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.840521] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[8.840558] (kinematics_utils) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.840594] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[8.840631] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<example_interfaces::srv::SolveIK::Request> request,\n'}
+[8.840666] (kinematics_utils) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.842899] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.842965] (kinematics_utils) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK::Request> request,\n'}
+[8.843004] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.843039] (kinematics_utils) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.843074] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kadd\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[8.843108] (kinematics_utils) StderrLine: {'line': b'    6 | void \x1b[01;31m\x1b[Kadd\x1b[m\x1b[K(const std::shared_ptr<example_interfaces::srv::SolveIK::Request> request,\n'}
+[8.843142] (kinematics_utils) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.843176] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.843210] (kinematics_utils) StderrLine: {'line': b'    6 | void add(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<example_interfaces::srv::SolveIK::Request> request,\n'}
+[8.843248] (kinematics_utils) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.845578] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:7:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.845648] (kinematics_utils) StderrLine: {'line': b'    7 |           std::shared_ptr<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK::Response>      response)\n'}
+[8.845687] (kinematics_utils) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.845722] (kinematics_utils) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.845756] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:7:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.845791] (kinematics_utils) StderrLine: {'line': b'    7 |           std::shared_ptr<example_interfaces::srv::SolveIK::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K      response)\n'}
+[8.845824] (kinematics_utils) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.848502] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.848568] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.848607] (kinematics_utils) StderrLine: {'line': b'   21 |   rclcpp::Service<\x1b[01;31m\x1b[Kexample_interfaces\x1b[m\x1b[K::srv::SolveIK>::SharedPtr service =\n'}
+[8.848643] (kinematics_utils) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.848678] (kinematics_utils) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[8.848712] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.848746] (kinematics_utils) StderrLine: {'line': b'   21 |   rclcpp::Service<example_interfaces::srv::SolveIK\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service =\n'}
+[8.848783] (kinematics_utils) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.848817] (kinematics_utils) StderrLine: {'line': b'\x1b[01m\x1b[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kservice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.848851] (kinematics_utils) StderrLine: {'line': b'   21 |   rclcpp::Service<example_interfaces::srv::SolveIK>::SharedPtr \x1b[01;31m\x1b[Kservice\x1b[m\x1b[K =\n'}
+[8.848884] (kinematics_utils) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.924910] (-) TimerEvent: {}
+[9.025213] (-) TimerEvent: {}
+[9.125543] (-) TimerEvent: {}
+[9.186646] (kinematics_utils) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/IKServer.dir/build.make:76: CMakeFiles/IKServer.dir/src/SolveIK.cpp.o] Error 1\n'}
+[9.186961] (kinematics_utils) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IKServer.dir/all] Error 2\n'}
+[9.187034] (kinematics_utils) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.189462] (kinematics_utils) CommandEnded: {'returncode': 2}
+[9.206151] (kinematics_utils) JobEnded: {'identifier': 'kinematics_utils', 'rc': 2}
+[9.216613] (-) EventReactorShutdown: {}

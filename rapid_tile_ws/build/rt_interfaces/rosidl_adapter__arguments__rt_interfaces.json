@@ -1,0 +1,6 @@
+{
+  "package_name": "rt_interfaces",
+  "non_idl_tuples": [
+    "/home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces:srv/SolveIK.srv"
+  ]
+}

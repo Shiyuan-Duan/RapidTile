@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target IKServer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IKServer.dir/src/SolveIK.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:1[m[K:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<rt_interfaces::srv::SolveIK_Request_<std::allocator<void> > >, std::shared_ptr<rt_interfaces::srv::SolveIK_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:12:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   12 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"sending back response: [%f]"[m[K, [32m[K(long int)response->mis[m[K);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Klong int[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:12:71:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   12 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [[01;36m[K%f[m[K]", (long int)response->mis);
+      |                                                                      [01;36m[K~^[m[K
+      |                                                                       [01;36m[K|[m[K
+      |                                                                       [01;36m[Kdouble[m[K
+      |                                                                      [32m[K%ld[m[K
+[100%] [32m[1mLinking CXX executable IKServer[0m
+[100%] Built target IKServer
+-- Install configuration: ""
+-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/kinematics_utils/IKServer
+-- Set runtime path of "/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/kinematics_utils/IKServer" to ""
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/package_run_dependencies/kinematics_utils
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/parent_prefix_path/kinematics_utils
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.sh
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.dsv
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.bash
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.sh
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.zsh
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.dsv
+-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.dsv
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/packages/kinematics_utils
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig.cmake
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig-version.cmake
+-- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.xml

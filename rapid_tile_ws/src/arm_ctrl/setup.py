@@ -13,15 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='shiyuan',
-    maintainer_email='shiyuan@todo.todo',
+    maintainer='shiyuanduan',
+    maintainer_email='shiyuanduan@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'arm_ctrl_node = arm_ctrl.arm_ctrl_node:main',
-
+            'arrow_key_ctrl = arm_ctrl.arrow_key_ctrl:main'
         ],
     },
 )

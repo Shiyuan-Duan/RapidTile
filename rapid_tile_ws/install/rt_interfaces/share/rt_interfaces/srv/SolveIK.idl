@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rt_interfaces/srv/SolveIK.srv
+// generated code does not contain a copyright notice
+
+
+module rt_interfaces {
+  module srv {
+    struct SolveIK_Request {
+      double x;
+
+      double y;
+
+      double z;
+    };
+    struct SolveIK_Response {
+      double t1;
+
+      double t2;
+
+      double t3;
+
+      double mis;
+    };
+  };
+};

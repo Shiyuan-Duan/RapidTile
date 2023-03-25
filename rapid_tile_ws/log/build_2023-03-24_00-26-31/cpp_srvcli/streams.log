@@ -1,0 +1,58 @@
+[0.009s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli
+[0.098s] -- The C compiler identification is GNU 11.3.0
+[0.359s] -- The CXX compiler identification is GNU 11.3.0
+[0.546s] -- Detecting C compiler ABI info
+[0.630s] -- Detecting C compiler ABI info - done
+[0.634s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.634s] -- Detecting C compile features
+[0.634s] -- Detecting C compile features - done
+[0.636s] -- Detecting CXX compiler ABI info
+[0.726s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.731s] -- Detecting CXX compile features
+[0.731s] -- Detecting CXX compile features - done
+[0.732s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.828s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.885s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.977s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.979s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.983s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.038s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.039s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.799s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.616s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.195s] -- Looking for pthread.h
+[4.291s] -- Looking for pthread.h - found
+[4.291s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.372s] -- Found Threads: TRUE  
+[4.464s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[4.547s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.601s] -- Configured cppcheck include dirs: 
+[4.601s] -- Configured cppcheck exclude dirs and/or files: 
+[4.602s] -- Added test 'lint_cmake' to check CMake code style
+[4.602s] -- Added test 'uncrustify' to check C / C++ code style
+[4.602s] -- Configured uncrustify additional arguments: 
+[4.602s] -- Added test 'xmllint' to check XML markup files
+[4.603s] -- Configuring done
+[4.611s] -- Generating done
+[4.612s] -- Build files have been written to: /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli
+[4.617s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli
+[4.619s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16
+[4.641s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.641s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[4.651s] [ 75%] [32m[1mLinking CXX executable client[0m
+[4.757s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.757s] (.text+0x1b): undefined reference to `main'
+[4.758s] collect2: error: ld returned 1 exit status
+[4.760s] gmake[2]: *** [CMakeFiles/client.dir/build.make:175: client] Error 1
+[4.760s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[4.760s] gmake[1]: *** Waiting for unfinished jobs....
+[6.691s] [100%] [32m[1mLinking CXX executable server[0m
+[6.811s] [100%] Built target server
+[6.812s] gmake: *** [Makefile:146: all] Error 2
+[6.813s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16

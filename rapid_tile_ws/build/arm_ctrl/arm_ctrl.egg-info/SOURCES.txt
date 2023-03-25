@@ -9,7 +9,7 @@ setup.py
 ../../build/arm_ctrl/arm_ctrl.egg-info/top_level.txt
 ../../build/arm_ctrl/arm_ctrl.egg-info/zip-safe
 arm_ctrl/__init__.py
-arm_ctrl/arm_ctrl_node.py
+arm_ctrl/arrow_key_ctrl.py
 resource/arm_ctrl
 test/test_copyright.py
 test/test_flake8.py

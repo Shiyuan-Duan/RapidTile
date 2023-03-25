@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (-) JobUnselected: {'identifier': 'kinematics_utils'}
+[0.000141] (-) JobUnselected: {'identifier': 'rt_interfaces'}
+[0.000174] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000189] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.006348] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.006736] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098948] (-) TimerEvent: {}
+[0.108585] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.199111] (-) TimerEvent: {}
+[0.299440] (-) TimerEvent: {}
+[0.399771] (-) TimerEvent: {}
+[0.500100] (-) TimerEvent: {}
+[0.520899] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.600216] (-) TimerEvent: {}
+[0.700492] (-) TimerEvent: {}
+[0.800791] (-) TimerEvent: {}
+[0.822467] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.900953] (-) TimerEvent: {}
+[0.925379] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.929713] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.929919] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.930112] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.931799] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.001081] (-) TimerEvent: {}
+[1.047947] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.052302] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.052490] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.052756] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.053771] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.101237] (-) TimerEvent: {}
+[1.162437] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.201368] (-) TimerEvent: {}
+[1.218379] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.301503] (-) TimerEvent: {}
+[1.335703] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.338115] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.342445] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.349588] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.359767] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.397209] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.398551] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.401666] (-) TimerEvent: {}
+[1.501985] (-) TimerEvent: {}
+[1.602263] (-) TimerEvent: {}
+[1.702593] (-) TimerEvent: {}
+[1.802943] (-) TimerEvent: {}
+[1.903226] (-) TimerEvent: {}
+[2.003581] (-) TimerEvent: {}
+[2.103895] (-) TimerEvent: {}
+[2.204199] (-) TimerEvent: {}
+[2.304479] (-) TimerEvent: {}
+[2.404776] (-) TimerEvent: {}
+[2.495615] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.504877] (-) TimerEvent: {}
+[2.605116] (-) TimerEvent: {}
+[2.705430] (-) TimerEvent: {}
+[2.805737] (-) TimerEvent: {}
+[2.906088] (-) TimerEvent: {}
+[3.006455] (-) TimerEvent: {}
+[3.106732] (-) TimerEvent: {}
+[3.207020] (-) TimerEvent: {}
+[3.307329] (-) TimerEvent: {}
+[3.407624] (-) TimerEvent: {}
+[3.507949] (-) TimerEvent: {}
+[3.608316] (-) TimerEvent: {}
+[3.646204] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.708491] (-) TimerEvent: {}
+[3.808843] (-) TimerEvent: {}
+[3.909119] (-) TimerEvent: {}
+[4.009443] (-) TimerEvent: {}
+[4.109808] (-) TimerEvent: {}
+[4.210142] (-) TimerEvent: {}
+[4.310456] (-) TimerEvent: {}
+[4.410867] (-) TimerEvent: {}
+[4.511188] (-) TimerEvent: {}
+[4.611459] (-) TimerEvent: {}
+[4.711743] (-) TimerEvent: {}
+[4.812061] (-) TimerEvent: {}
+[4.912380] (-) TimerEvent: {}
+[5.012707] (-) TimerEvent: {}
+[5.113029] (-) TimerEvent: {}
+[5.213318] (-) TimerEvent: {}
+[5.313607] (-) TimerEvent: {}
+[5.413920] (-) TimerEvent: {}
+[5.514272] (-) TimerEvent: {}
+[5.614568] (-) TimerEvent: {}
+[5.714875] (-) TimerEvent: {}
+[5.749373] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.754110] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.815001] (-) TimerEvent: {}
+[5.864730] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.865132] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.915127] (-) TimerEvent: {}
+[5.963554] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.964234] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.015265] (-) TimerEvent: {}
+[6.053236] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[6.115414] (-) TimerEvent: {}
+[6.132156] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.185770] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.185881] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.185923] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.186170] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.186613] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.186683] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.186933] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.187521] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.194081] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done\n'}
+[6.194937] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli\n'}
+[6.202424] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[6.202654] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[6.202672] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[6.215543] (-) TimerEvent: {}
+[6.223412] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[6.223533] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[6.315683] (-) TimerEvent: {}
+[6.416002] (-) TimerEvent: {}
+[6.516297] (-) TimerEvent: {}
+[6.616592] (-) TimerEvent: {}
+[6.716913] (-) TimerEvent: {}
+[6.817247] (-) TimerEvent: {}
+[6.917543] (-) TimerEvent: {}
+[7.017838] (-) TimerEvent: {}
+[7.118126] (-) TimerEvent: {}
+[7.218429] (-) TimerEvent: {}
+[7.318731] (-) TimerEvent: {}
+[7.419037] (-) TimerEvent: {}
+[7.519393] (-) TimerEvent: {}
+[7.619753] (-) TimerEvent: {}
+[7.720146] (-) TimerEvent: {}
+[7.820468] (-) TimerEvent: {}
+[7.920810] (-) TimerEvent: {}
+[8.021127] (-) TimerEvent: {}
+[8.121422] (-) TimerEvent: {}
+[8.221719] (-) TimerEvent: {}
+[8.322030] (-) TimerEvent: {}
+[8.422301] (-) TimerEvent: {}
+[8.522679] (-) TimerEvent: {}
+[8.622989] (-) TimerEvent: {}
+[8.723312] (-) TimerEvent: {}
+[8.823617] (-) TimerEvent: {}
+[8.923904] (-) TimerEvent: {}
+[9.010566] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[9.024110] (-) TimerEvent: {}
+[9.124426] (-) TimerEvent: {}
+[9.160091] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[9.160576] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[9.224548] (-) TimerEvent: {}
+[9.304421] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[9.310125] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.324224] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[9.324681] (-) TimerEvent: {}
+[9.328867] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'], 'cwd': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'shiyuanduan'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/shiyuanduan'), ('OLDPWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'shiyuanduan'), ('NAME', 'ShiyuanIBP'), ('WSL_INTEROP', '/run/WSL/27526_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/shiyu/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/shiyu/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/shiyu/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[9.331608] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.331845] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[9.332195] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[9.332263] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[9.332608] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[9.332818] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[9.332982] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[9.333162] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[9.333227] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[9.333418] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[9.333483] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[9.333571] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[9.333726] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[9.333794] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[9.333833] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[9.333870] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[9.334042] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[9.334114] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[9.334287] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[9.334356] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[9.336583] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[9.366435] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[9.366763] (-) EventReactorShutdown: {}

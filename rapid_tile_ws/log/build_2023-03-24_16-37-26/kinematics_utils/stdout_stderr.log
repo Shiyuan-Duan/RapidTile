@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rt_interfaces: 0.0.0 (/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/cmake)
+-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils
+[ 50%] [32mBuilding CXX object CMakeFiles/IKServer.dir/src/SolveIK.cpp.o[0m
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SolveIK::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SolveIK::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SolveIK::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<example_interfaces::srv::SolveIK::Request[01;31m[K>[m[K request,
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+    6 | void add(const [01;31m[Kstd[m[K::shared_ptr<example_interfaces::srv::SolveIK::Request> request,
+      |                [01;31m[K^~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SolveIK::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+    6 | void [01;31m[Kadd[m[K(const std::shared_ptr<example_interfaces::srv::SolveIK::Request> request,
+      |      [01;31m[K^~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:6:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+    6 | void add([01;31m[Kconst[m[K std::shared_ptr<example_interfaces::srv::SolveIK::Request> request,
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:7:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    7 |           std::shared_ptr<[01;31m[Kexample_interfaces[m[K::srv::SolveIK::Response>      response)
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:7:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |           std::shared_ptr<example_interfaces::srv::SolveIK::Response[01;31m[K>[m[K      response)
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   21 |   rclcpp::Service<[01;31m[Kexample_interfaces[m[K::srv::SolveIK>::SharedPtr service =
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   rclcpp::Service<example_interfaces::srv::SolveIK[01;31m[K>[m[K::SharedPtr service =
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:21:64:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+   21 |   rclcpp::Service<example_interfaces::srv::SolveIK>::SharedPtr [01;31m[Kservice[m[K =
+      |                                                                [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/IKServer.dir/build.make:76: CMakeFiles/IKServer.dir/src/SolveIK.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IKServer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

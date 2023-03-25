@@ -1,0 +1,71 @@
+[35m[1mConsolidate compiler generated dependencies of target IKServer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IKServer.dir/src/SolveIK.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:1[m[K:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<rt_interfaces::srv::SolveIK_Request_<std::allocator<void> > >, std::shared_ptr<rt_interfaces::srv::SolveIK_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:10:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Krt_interfaces::srv::SolveIK_Request_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\nx: %ld" " z: %ld"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 |                 [32m[Krequest->x[m[K, request->z);
+      |                 [32m[K~~~~~~~~~~[m[K                   
+      |                          [32m[K|[m[K
+      |                          [32m[Krt_interfaces::srv::SolveIK_Request_<std::allocator<void> >::_x_type {aka int}[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:10:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\nx: [01;36m[K%ld[m[K" " z: %ld",
+      |                                                                   [01;36m[K~~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Klong int[m[K
+      |                                                                   [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:1[m[K:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:10:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Krt_interfaces::srv::SolveIK_Request_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\nx: %ld" " z: %ld"[m[K,
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   11 |                 request->x, [32m[Krequest->z[m[K);
+      |                             [32m[K~~~~~~~~~~[m[K       
+      |                                      [32m[K|[m[K
+      |                                      [32m[Krt_interfaces::srv::SolveIK_Request_<std::allocator<void> >::_z_type {aka int}[m[K
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:10:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   10 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\nx: %ld" " z: [01;36m[K%ld[m[K",
+      |                                                                             [01;36m[K~~^[m[K
+      |                                                                               [01;36m[K|[m[K
+      |                                                                               [01;36m[Klong int[m[K
+      |                                                                             [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:1[m[K:
+[01m[K/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils/src/SolveIK.cpp:12:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct rt_interfaces::srv::SolveIK_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rt_interfaces::srv::SolveIK_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   12 |   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->[01;31m[Ksum[m[K);
+      |                                                                                                 [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/IKServer.dir/build.make:76: CMakeFiles/IKServer.dir/src/SolveIK.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IKServer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16
+Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16

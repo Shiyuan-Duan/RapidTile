@@ -1,0 +1,329 @@
+[0.315s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.315s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0ffc03d360>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0ffc82fe20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0ffc82fe20>>)
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.342s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shiyuanduan/RapidTile/rapid_tile_ws'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_ctrl) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_ctrl' with type 'ros.ament_python' and name 'arm_ctrl'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extension 'ignore'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extension 'ignore_ament_install'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/kinematics_utils) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kinematics_utils' with type 'ros.ament_cmake' and name 'kinematics_utils'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/rt_interfaces) by extension 'ros'
+[0.363s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rt_interfaces' with type 'ros.ament_cmake' and name 'rt_interfaces'
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.388s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/shiyuanduan/RapidTile/rapid_tile_ws/install
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli', 'merge_install': False, 'path': '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rt_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'rt_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces', 'merge_install': False, 'path': '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'arm_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'arm_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl', 'merge_install': False, 'path': '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'kinematics_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'kinematics_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils', 'merge_install': False, 'path': '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils', 'symlink_install': False, 'test_result_base': None}
+[0.442s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces' with build type 'ament_cmake'
+[0.444s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/rt_interfaces'
+[0.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/cpp_srvcli'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces -- -j16 -l16
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli -- -j16 -l16
+[0.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli
+[0.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/cpp_srvcli
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli' for CMake module files
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli' for CMake config files
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/bin'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/bin'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[0.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli' for CMake module files
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli' for CMake config files
+[0.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/bin'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/lib/python3.10/site-packages'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/bin'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[0.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces -- -j16 -l16
+[0.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces
+[0.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rt_interfaces)
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces' for CMake module files
+[0.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/rt_interfaces
+[0.772s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces' for CMake config files
+[0.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_interfaces', 'cmake_prefix_path')
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.dsv'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.sh'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib'
+[0.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_interfaces', 'ld_library_path_lib')
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.sh'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/bin'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/pkgconfig/rt_interfaces.pc'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/python3.10/site-packages'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/bin'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.ps1'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.sh'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.zsh'
+[0.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/colcon-core/packages/rt_interfaces)
+[0.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rt_interfaces)
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces' for CMake module files
+[0.814s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces' for CMake config files
+[0.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_interfaces', 'cmake_prefix_path')
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.dsv'
+[0.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/cmake_prefix_path.sh'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib'
+[0.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('rt_interfaces', 'ld_library_path_lib')
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.dsv'
+[0.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/hook/ld_library_path_lib.sh'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/bin'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/pkgconfig/rt_interfaces.pc'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/lib/python3.10/site-packages'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/bin'
+[0.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.dsv'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.bash'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/rt_interfaces/package.zsh'
+[0.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces/share/colcon-core/packages/rt_interfaces)
+[0.820s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl' with build type 'ament_python'
+[0.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_ctrl', 'ament_prefix_path')
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/ament_prefix_path.ps1'
+[0.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/ament_prefix_path.dsv'
+[0.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/ament_prefix_path.sh'
+[0.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/kinematics_utils'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.028s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16
+[1.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils
+[1.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinematics_utils)
+[1.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils' for CMake module files
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils' for CMake config files
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematics_utils', 'cmake_prefix_path')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/bin'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/pkgconfig/kinematics_utils.pc'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.zsh'
+[1.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/colcon-core/packages/kinematics_utils)
+[1.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kinematics_utils)
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils' for CMake config files
+[1.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('kinematics_utils', 'cmake_prefix_path')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.dsv'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/hook/cmake_prefix_path.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/pkgconfig/kinematics_utils.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/python3.10/site-packages'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.sh'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.bash'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.zsh'
+[1.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/colcon-core/packages/kinematics_utils)
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli PYTHONPATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/prefix_override:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build install --record /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/install.log --single-version-externally-managed
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl' for CMake module files
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli PYTHONPATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/prefix_override:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build install --record /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/install.log --single-version-externally-managed
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/bin'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/pkgconfig/arm_ctrl.pc'
+[1.486s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages'
+[1.486s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_ctrl', 'pythonpath')
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/pythonpath.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/pythonpath.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/hook/pythonpath.sh'
+[1.487s] Level 1:colcon.colcon_core.environment:checking '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/bin'
+[1.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_ctrl)
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/package.sh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/package.bash'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/arm_ctrl/package.zsh'
+[1.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/share/colcon-core/packages/arm_ctrl)
+[1.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.490s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.490s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.530s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.535s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.535s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/local_setup.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/_local_setup_util_ps1.py'
+[1.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/setup.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/local_setup.sh'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/_local_setup_util_sh.py'
+[1.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/setup.sh'
+[1.540s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/local_setup.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/setup.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/local_setup.zsh'
+[1.542s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/setup.zsh'

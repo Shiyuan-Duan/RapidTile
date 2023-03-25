@@ -4,8 +4,11 @@
   <name>arm_ctrl</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="shiyuan@todo.todo">shiyuan</maintainer>
+  <maintainer email="shiyuanduan@todo.todo">shiyuanduan</maintainer>
   <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>
+  <depend>rt_interfaces</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
