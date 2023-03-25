@@ -212,6 +212,15 @@ bool rt_interfaces__srv__solve_ik__response__convert_from_py(PyObject * _pymsg, 
     ros_message->t3 = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // success
+    PyObject * field = PyObject_GetAttrString(_pymsg, "success");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->success = (Py_True == field);
+    Py_DECREF(field);
+  }
   {  // mis
     PyObject * field = PyObject_GetAttrString(_pymsg, "mis");
     if (!field) {
@@ -270,6 +279,17 @@ PyObject * rt_interfaces__srv__solve_ik__response__convert_to_py(void * raw_ros_
     field = PyFloat_FromDouble(ros_message->t3);
     {
       int rc = PyObject_SetAttrString(_pymessage, "t3", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // success
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->success ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "success", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

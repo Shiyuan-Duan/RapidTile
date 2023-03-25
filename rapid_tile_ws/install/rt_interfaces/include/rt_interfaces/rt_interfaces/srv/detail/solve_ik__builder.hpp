@@ -111,16 +111,32 @@ private:
   ::rt_interfaces::srv::SolveIK_Response msg_;
 };
 
+class Init_SolveIK_Response_success
+{
+public:
+  explicit Init_SolveIK_Response_success(::rt_interfaces::srv::SolveIK_Response & msg)
+  : msg_(msg)
+  {}
+  Init_SolveIK_Response_mis success(::rt_interfaces::srv::SolveIK_Response::_success_type arg)
+  {
+    msg_.success = std::move(arg);
+    return Init_SolveIK_Response_mis(msg_);
+  }
+
+private:
+  ::rt_interfaces::srv::SolveIK_Response msg_;
+};
+
 class Init_SolveIK_Response_t3
 {
 public:
   explicit Init_SolveIK_Response_t3(::rt_interfaces::srv::SolveIK_Response & msg)
   : msg_(msg)
   {}
-  Init_SolveIK_Response_mis t3(::rt_interfaces::srv::SolveIK_Response::_t3_type arg)
+  Init_SolveIK_Response_success t3(::rt_interfaces::srv::SolveIK_Response::_t3_type arg)
   {
     msg_.t3 = std::move(arg);
-    return Init_SolveIK_Response_mis(msg_);
+    return Init_SolveIK_Response_success(msg_);
   }
 
 private:

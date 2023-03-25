@@ -288,6 +288,11 @@ static bool _SolveIK_Response__cdr_serialize(
     cdr << ros_message->t3;
   }
 
+  // Field name: success
+  {
+    cdr << (ros_message->success ? true : false);
+  }
+
   // Field name: mis
   {
     cdr << ros_message->mis;
@@ -318,6 +323,13 @@ static bool _SolveIK_Response__cdr_deserialize(
   // Field name: t3
   {
     cdr >> ros_message->t3;
+  }
+
+  // Field name: success
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->success = tmp ? true : false;
   }
 
   // Field name: mis
@@ -357,6 +369,12 @@ size_t get_serialized_size_rt_interfaces__srv__SolveIK_Response(
   // field.name t3
   {
     size_t item_size = sizeof(ros_message->t3);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name success
+  {
+    size_t item_size = sizeof(ros_message->success);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -413,6 +431,12 @@ size_t max_serialized_size_rt_interfaces__srv__SolveIK_Response(
 
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: success
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint8_t);
   }
   // member: mis
   {

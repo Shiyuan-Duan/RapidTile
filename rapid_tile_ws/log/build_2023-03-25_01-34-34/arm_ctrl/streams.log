@@ -1,0 +1,26 @@
+[0.565s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli PYTHONPATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/prefix_override:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build install --record /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/install.log --single-version-externally-managed
+[0.728s] running egg_info
+[0.728s] writing ../../build/arm_ctrl/arm_ctrl.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/arm_ctrl/arm_ctrl.egg-info/dependency_links.txt
+[0.729s] writing entry points to ../../build/arm_ctrl/arm_ctrl.egg-info/entry_points.txt
+[0.729s] writing requirements to ../../build/arm_ctrl/arm_ctrl.egg-info/requires.txt
+[0.729s] writing top-level names to ../../build/arm_ctrl/arm_ctrl.egg-info/top_level.txt
+[0.730s] reading manifest file '../../build/arm_ctrl/arm_ctrl.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../build/arm_ctrl/arm_ctrl.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] copying arm_ctrl/arrow_key_ctrl.py -> /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build/lib/arm_ctrl
+[0.731s] running install
+[0.731s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.731s]   warnings.warn(
+[0.732s] running install_lib
+[0.732s] copying /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build/lib/arm_ctrl/arrow_key_ctrl.py -> /home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages/arm_ctrl
+[0.733s] byte-compiling /home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages/arm_ctrl/arrow_key_ctrl.py to arrow_key_ctrl.cpython-310.pyc
+[0.733s] running install_data
+[0.734s] running install_egg_info
+[0.735s] removing '/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages/arm_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.735s] Copying ../../build/arm_ctrl/arm_ctrl.egg-info to /home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages/arm_ctrl-0.0.0-py3.10.egg-info
+[0.736s] running install_scripts
+[0.759s] Installing arrow_key_ctrl script to /home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/arm_ctrl
+[0.760s] writing list of installed files to '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/install.log'
+[0.776s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/src/arm_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli PYTHONPATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/prefix_override:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arm_ctrl build --build-base /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/build install --record /home/shiyuanduan/RapidTile/rapid_tile_ws/build/arm_ctrl/install.log --single-version-externally-managed

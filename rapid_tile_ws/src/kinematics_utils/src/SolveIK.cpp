@@ -27,9 +27,9 @@ std::vector<double> solve_inv_kinematics(double x_target, double y_target, doubl
     double desired_arm_length = std::sqrt(std::pow(x_target, 2) + std::pow(y_target, 2) + std::pow(z_target, 2));
     if(desired_arm_length > ARM_LENGTH){
         std::cout << "Destination " << x_target << ", " << y_target << ", " << z_target << " is not reachable"<<std::endl;
-        return {0, 0, 0, 0};
+        return {0, 0, 0, 0, 0};
     }
-
+    
     double theta1 = 0;
     double theta2 = 0;
     double theta3 = 0;
@@ -57,7 +57,7 @@ std::vector<double> solve_inv_kinematics(double x_target, double y_target, doubl
         theta2 -= learn_rate * dloss_dtheta2;
         theta3 -= learn_rate * dloss_dtheta3;
     }
-    return {theta1, theta2, theta3, running_loss};
+    return {theta1, theta2, theta3, running_loss, 1};
 }
 void solve(const std::shared_ptr<rt_interfaces::srv::SolveIK::Request> request,
           std::shared_ptr<rt_interfaces::srv::SolveIK::Response>      response)
@@ -66,6 +66,7 @@ void solve(const std::shared_ptr<rt_interfaces::srv::SolveIK::Request> request,
     response->t1 = thetas[0];
     response->t2 = thetas[1];
     response->t3 = thetas[2];
+    response->success = thetas[4] != 0;
 
 }
 void add(const std::shared_ptr<rt_interfaces::srv::SolveIK::Request> request,

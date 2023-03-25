@@ -44,6 +44,7 @@ typedef struct rt_interfaces__srv__SolveIK_Response
   double t1;
   double t2;
   double t3;
+  bool success;
   double mis;
 } rt_interfaces__srv__SolveIK_Response;
 

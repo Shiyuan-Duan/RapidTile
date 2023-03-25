@@ -19,6 +19,8 @@ module rt_interfaces {
 
       double t3;
 
+      boolean success;
+
       double mis;
     };
   };

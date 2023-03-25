@@ -260,6 +260,7 @@ rt_interfaces__srv__SolveIK_Response__init(rt_interfaces__srv__SolveIK_Response 
   // t1
   // t2
   // t3
+  // success
   // mis
   return true;
 }
@@ -273,6 +274,7 @@ rt_interfaces__srv__SolveIK_Response__fini(rt_interfaces__srv__SolveIK_Response 
   // t1
   // t2
   // t3
+  // success
   // mis
 }
 
@@ -292,6 +294,10 @@ rt_interfaces__srv__SolveIK_Response__are_equal(const rt_interfaces__srv__SolveI
   }
   // t3
   if (lhs->t3 != rhs->t3) {
+    return false;
+  }
+  // success
+  if (lhs->success != rhs->success) {
     return false;
   }
   // mis
@@ -315,6 +321,8 @@ rt_interfaces__srv__SolveIK_Response__copy(
   output->t2 = input->t2;
   // t3
   output->t3 = input->t3;
+  // success
+  output->success = input->success;
   // mis
   output->mis = input->mis;
   return true;

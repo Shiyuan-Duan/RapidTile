@@ -1,0 +1,22 @@
+[0.051s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16
+[0.076s] [100%] Built target IKServer
+[0.224s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils -- -j16 -l16
+[0.239s] Invoking command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils
+[0.243s] -- Install configuration: ""
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/lib/kinematics_utils/IKServer
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/package_run_dependencies/kinematics_utils
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/parent_prefix_path/kinematics_utils
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.sh
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/ament_prefix_path.dsv
+[0.243s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.sh
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/environment/path.dsv
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.bash
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.sh
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.zsh
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/local_setup.dsv
+[0.244s] -- Installing: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.dsv
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/ament_index/resource_index/packages/kinematics_utils
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig.cmake
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/cmake/kinematics_utilsConfig-version.cmake
+[0.244s] -- Up-to-date: /home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils/share/kinematics_utils/package.xml
+[0.245s] Invoked command in '/home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils' returned '0': CMAKE_PREFIX_PATH=/home/shiyuanduan/RapidTile/rapid_tile_ws/install/rt_interfaces:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/kinematics_utils:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/cpp_srvcli:/home/shiyuanduan/RapidTile/rapid_tile_ws/install/arm_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/shiyuanduan/RapidTile/rapid_tile_ws/build/kinematics_utils

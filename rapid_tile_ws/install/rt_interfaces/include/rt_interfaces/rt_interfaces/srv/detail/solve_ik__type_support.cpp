@@ -190,7 +190,7 @@ void SolveIK_Response_fini_function(void * message_memory)
   typed_message->~SolveIK_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember SolveIK_Response_message_member_array[4] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember SolveIK_Response_message_member_array[5] = {
   {
     "t1",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
@@ -243,6 +243,23 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SolveIK_Respo
     nullptr  // resize(index) function pointer
   },
   {
+    "success",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(rt_interfaces::srv::SolveIK_Response, success),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
     "mis",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
@@ -264,7 +281,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember SolveIK_Respo
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers SolveIK_Response_message_members = {
   "rt_interfaces::srv",  // message namespace
   "SolveIK_Response",  // message name
-  4,  // number of fields
+  5,  // number of fields
   sizeof(rt_interfaces::srv::SolveIK_Response),
   SolveIK_Response_message_member_array,  // message members
   SolveIK_Response_init_function,  // function to initialize message memory (memory has to be allocated)

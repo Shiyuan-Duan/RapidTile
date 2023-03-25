@@ -183,6 +183,7 @@ struct SolveIK_Response_
       this->t1 = 0.0;
       this->t2 = 0.0;
       this->t3 = 0.0;
+      this->success = false;
       this->mis = 0.0;
     }
   }
@@ -196,6 +197,7 @@ struct SolveIK_Response_
       this->t1 = 0.0;
       this->t2 = 0.0;
       this->t3 = 0.0;
+      this->success = false;
       this->mis = 0.0;
     }
   }
@@ -210,6 +212,9 @@ struct SolveIK_Response_
   using _t3_type =
     double;
   _t3_type t3;
+  using _success_type =
+    bool;
+  _success_type success;
   using _mis_type =
     double;
   _mis_type mis;
@@ -231,6 +236,12 @@ struct SolveIK_Response_
     const double & _arg)
   {
     this->t3 = _arg;
+    return *this;
+  }
+  Type & set__success(
+    const bool & _arg)
+  {
+    this->success = _arg;
     return *this;
   }
   Type & set__mis(
@@ -289,6 +300,9 @@ struct SolveIK_Response_
       return false;
     }
     if (this->t3 != other.t3) {
+      return false;
+    }
+    if (this->success != other.success) {
       return false;
     }
     if (this->mis != other.mis) {

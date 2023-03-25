@@ -230,6 +230,7 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
         '_t1',
         '_t2',
         '_t3',
+        '_success',
         '_mis',
     ]
 
@@ -237,6 +238,7 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
         't1': 'double',
         't2': 'double',
         't3': 'double',
+        'success': 'boolean',
         'mis': 'double',
     }
 
@@ -244,6 +246,7 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
@@ -254,6 +257,7 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
         self.t1 = kwargs.get('t1', float())
         self.t2 = kwargs.get('t2', float())
         self.t3 = kwargs.get('t3', float())
+        self.success = kwargs.get('success', bool())
         self.mis = kwargs.get('mis', float())
 
     def __repr__(self):
@@ -290,6 +294,8 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
         if self.t2 != other.t2:
             return False
         if self.t3 != other.t3:
+            return False
+        if self.success != other.success:
             return False
         if self.mis != other.mis:
             return False
@@ -344,6 +350,19 @@ class SolveIK_Response(metaclass=Metaclass_SolveIK_Response):
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
                 "The 't3' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
         self._t3 = value
+
+    @builtins.property
+    def success(self):
+        """Message field 'success'."""
+        return self._success
+
+    @success.setter
+    def success(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, bool), \
+                "The 'success' field must be of type 'bool'"
+        self._success = value
 
     @builtins.property
     def mis(self):
